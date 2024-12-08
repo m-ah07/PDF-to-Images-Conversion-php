@@ -25,7 +25,7 @@ A lightweight PHP service for converting PDF files into images using `pdftoppm`.
 
 ## Usage
 
-### example
+### Example
 Use the provided example script in the `examples/` directory:
 ```bash
 require_once __DIR__ . '/../src/PdfToImages.php';
