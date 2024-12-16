@@ -15,11 +15,11 @@ A lightweight PHP service for converting PDF files into images using `pdftoppm`.
 
 ## Installation
 1. Clone the repository:
-    ```bash
+    ```
     git clone https://github.com/marwan-ahmed-23/PDF-to-Images-Conversion-php.git
     ```
 2. Install `pdftoppm` (if not already installed):
-    ```bash
+    ```
     sudo apt install poppler-utils
     ```
 
@@ -27,7 +27,7 @@ A lightweight PHP service for converting PDF files into images using `pdftoppm`.
 
 ### Example
 Use the provided example script in the `examples/` directory:
-```bash
+```
 require_once __DIR__ . '/../src/PdfToImages.php';
 
 use PdfToImages\PdfToImages;
@@ -42,7 +42,7 @@ print_r($images);
 ```
 
 Place a sample PDF in the `examples/` folder and run the script:
-```bash
+```
 php examples/example.php
 ```
 
