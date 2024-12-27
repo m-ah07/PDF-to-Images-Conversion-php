@@ -4,16 +4,16 @@ A lightweight PHP service for converting PDF files into images using `pdftoppm`.
 
 ---
 
-## Features
+## 🚀 Features
 - Converts PDF files into images (PNG format).
 - Outputs one image per page in the PDF.
 - Lightweight and easy to integrate.
 
-## Requirements
+## ⚙️ Requirements
 - PHP 7.4 or higher.
 - `pdftoppm` installed on the server (part of `poppler-utils`).
 
-## Installation
+## 🔧 Installation
 1. Clone the repository:
     ```bash
     git clone https://github.com/marwan-ahmed-23/PDF-to-Images-Conversion-php.git
@@ -46,18 +46,22 @@ Place a sample PDF in the `examples/` folder and run the script:
 php examples/example.php
 ```
 
-## Directory Structure
-
+## 📂 Directory Structure
+```plaintext
 PDF-to-Images-Conversion-php/
 ├── examples/
-│   └── example.php        # Example usage for PDF to Images conversion
+│   └── example.php
 ├── src/
-│   └── PdfToImages.php    # Core logic for PDF to images conversion
-├── .gitignore             # Git ignore file
-└── README.md              # Project documentation
+│   └── PdfToImages.php
+├── LICENSE
+├── .gitignore
+└── README.md
+```
 
-
-## Contributing
+## 🤝 Contributing
 
 Contributions are welcome! Feel free to submit a pull request or open an issue to report bugs or suggest features.
 
+## 🌟 Show Your Support
+
+If you found this project helpful, please consider giving it a ⭐ on GitHub. Your support means the world to us!
