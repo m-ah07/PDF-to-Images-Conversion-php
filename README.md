@@ -16,7 +16,7 @@ A lightweight PHP service for converting PDF files into images using `pdftoppm`.
 ## 🔧 Installation
 1. Clone the repository:
     ```bash
-    git clone https://github.com/marwan-ahmed-23/PDF-to-Images-Conversion-php.git
+    git clone https://github.com/m-ah07/PDF-to-Images-Conversion-php.git
     ```
 2. Install `pdftoppm` (if not already installed):
     ```bash
